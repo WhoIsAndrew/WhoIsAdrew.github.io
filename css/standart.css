@@ -1,0 +1,100 @@
+/*
+================================================================================
+|                                     MAIN STYLES                              |
+================================================================================
+*/
+/* line 7, ../sass/standart.scss */
+.main-wrapper {
+  padding: 0 0 0 0;
+  min-width: 320px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+/* line 14, ../sass/standart.scss */
+.wrapper {
+  min-width: 320px;
+  max-width: 938px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* titles */
+/* line 22, ../sass/standart.scss */
+p {
+  font-size: 1em;
+  line-height: 1.1em;
+  padding: 15px 0 15px 0;
+  font-weight: 400;
+  color: #17202f;
+}
+
+/* line 29, ../sass/standart.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.1em;
+  padding: 15px 0 15px 0;
+  font-weight: 400;
+  color: #17202f;
+}
+
+/* line 36, ../sass/standart.scss */
+h2 {
+  font-size: 1.8em;
+  line-height: 1.1em;
+  padding: 15px 0 15px 0;
+  font-weight: 400;
+  color: #17202f;
+}
+
+/* text position */
+/* line 45, ../sass/standart.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 46, ../sass/standart.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 47, ../sass/standart.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 48, ../sass/standart.scss */
+.nowrap {
+  white-space: nowrap !important;
+}
+
+/* loader */
+/* line 51, ../sass/standart.scss */
+.loaded .main-wrapper {
+  visibility: hidden;
+}
+
+/* line 52, ../sass/standart.scss */
+.icon-load {
+  background: url(../img/loader.gif) no-repeat left top;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+  margin-left: -20px;
+  display: none;
+}
+
+/* line 53, ../sass/standart.scss */
+.loaded .icon-load {
+  display: block;
+}
+
+@font-face {
+  font-family: Jenna Sue;
+  /* Name font */
+  src: url(../fonts/JennaSue.ttf);
+}
